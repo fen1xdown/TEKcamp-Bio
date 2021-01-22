@@ -1,0 +1,68 @@
+body {
+	background-image: url('./assets/double-bubble-dark.png');
+	
+}
+
+h1 {
+}
+
+p, form {
+	color: white;
+}
+div.gallery {
+	border: 1px solid #ccc;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 10%;
+}
+
+	div.gallery:hover {
+		border: 1px solid #777;
+	}
+
+	div.gallery img {
+		position: sticky;
+	}
+
+p.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.gallery-res {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+}
+
+@media only screen and (min-width: 801px) {
+	.gallery-res {
+		width: 33.3%;
+		height: 33.3%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.gallery-res {
+		width: 66.67%;
+		height: 66.67%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.gallery-res {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
