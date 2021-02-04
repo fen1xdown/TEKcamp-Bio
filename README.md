@@ -26,3 +26,5 @@ You will be creating a Multi-page HTML site about yourself.  Include the followi
 ## ********************************************************
 
 Take a look in the assets folder of this repository for some sample design ideas to help spark your creativity.  Feel free to use other designs as well.
+
+So, long story short, I'd like to do more with this but for right now I'll just put it on pause.
